@@ -52,7 +52,7 @@ const addTodo = (e) => {
         
         <div className="flex-1 bg-white rounded-3xl shadow-2xl p-8 flex flex-col hover:scale-[1.02] transition-transform duration-300">
           <h1 className="text-3xl font-extrabold text-[#F7A21D] mb-6 text-center">
-            My Todo List
+            My To do List
           </h1>
 
           <TodoForm input={input} setInput={setInput} addTodo={addTodo} />
